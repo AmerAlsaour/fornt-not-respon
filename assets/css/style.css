@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./../img/banner.png);
+  }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.logo{
+    width: 200px;
+    margin-left: 5vw;}
+header nav .bar{
+    color: white;
+    width:  30vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 5vw;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#Home .bar li a:hover{
+  border-bottom: 2px solid red;
+}
+#Home .letters a:hover{
+background-color: red;
+border: none;
+}
+.letters{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.letters p , .letters a , .letters h1{
+    color: white;
+    text-decoration: none;
+}
+#Home .letters a:hover{
+    background-color: red;
+    border: none;
+}
+.letters h1{
+    padding-top: 125px;
+    font-size: 70px;
+}
+.letters .p2{
+    padding-top:20px;  
+}
+.letters a{
+    border: 1px solid white;
+    padding: 5px;
+}
+.letters .a1{
+    padding-top:40px;
+    font-size: 20px;
+}
+    
+section .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+section .heading h2{
+    font-size: 45px;
+}
+section .window{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 25px; 
+}
+
+.section1 .window .window1 {
+    width: 25vw;
+    height: 42vh;
+    background-color: #fff3f3;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .window .window1 p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+section .window .window2{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .window .window2 img{
+    height: 75vh;
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #f44336; /* the color */
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+section .window .window2 img:hover{
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+.section1{
+    height: 80vh; 
+}
+.section2{
+    height: 115vh;
+    background-color: #eee;
+}
+.section3{
+    height: 100vh; 
+}
+section .window .window3{
+    width: 25vw;
+}
+section .window .window3 img{
+    width: 25vw;
+}
+.section3 .window .window3 h3{
+    padding-top: 10px;
+}
+.section3 .window .window3 p{
+    padding-top: 10px;
+}
+.section4{
+    height: 100vh;
+    background-color: #eee;
+}
+.section4 .window .window1{
+    width: 35vw;
+    height: 55vh;
+    background-color: #fff3f3;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.section4 .window .window1 img{
+    width: 25px;
+    border-radius: 15px;
+}
+.section4 .window .window1 .part1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .window .window1 .card1{
+    width: 70%;
+}
+.section4 .window .window1 .card1 p{
+    text-align: left;
+}
+.section5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 .project{
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./../img/banner2.jpg) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section5 .project p{
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+} 
+.section5 .project a{
+    color: white;
+    font-size: 15px;
+    padding: 3px  10px 3px 10px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.section5 .project a:hover{
+    background-color: #f44336;
+    border: none;
+}
+footer{    
+    background-color: #eee;
+    text-align: center;
+}
+footer h3{
+    padding-top:25px ;
+    padding-bottom:25px ;
+}
+footer p{
+    padding-bottom: 30px;
+}
+footer i{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
